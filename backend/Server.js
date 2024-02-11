@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(cors());
 app.use(
   cors({
-    origin: ["https://mern-todolist-v2-dpze.vercel.app/","*"],
+    origin: ["https://mern-todolist-v2-dpze.vercel.app//save","*"],
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type"],
   })
