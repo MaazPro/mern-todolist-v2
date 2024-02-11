@@ -39,4 +39,4 @@ const deleteTodo = (_id, setToDo)=>{
 }
 
 
-export {getAllToDo, addToDo, updateTodo, deleteTodo};
+export {getAllToDo, addToDo, deleteTodo};
