@@ -1,6 +1,6 @@
 import axios from 'axios';
-
-const baseUrl = "http://localhost:5000";
+axios.defaults.withCredentials = true;
+const baseUrl = "https://mern-todolist-v2.vercel.app/";
 
 const getAllToDo = (setToDo)=>{
     axios
